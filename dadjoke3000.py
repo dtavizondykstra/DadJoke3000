@@ -5,7 +5,7 @@ from termcolor import colored
 
 header = figlet_format("DAD JOKE 3000!")
 header = colored(header, color="magenta", on_color="on_cyan")
-space = "\n" * 9
+space = "\n" * 2
 print(space + header)
 
 topic = input("Let me tell you a joke! Give me a topic: ")
